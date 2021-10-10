@@ -66,7 +66,7 @@ class UsersTable extends React.Component {
               })}
           </tbody>
         </table>
-
+<div className ='button-block'>
         <button onClick={this.goToPrevPage}>Prev</button>
         {pages.map((page) => {
           return (
@@ -80,6 +80,7 @@ class UsersTable extends React.Component {
           );
         })}
         <button onClick={this.goToNextPage}>Next</button>
+        </div>
       </div>
     );
   }

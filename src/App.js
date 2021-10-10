@@ -137,6 +137,7 @@ class App extends React.Component {
     } else {
       return (
         <>
+        <div className = 'filter-bar'>
           <SearchByName
             searching={this.searching}
             seachingData={seachingData}
@@ -147,7 +148,7 @@ class App extends React.Component {
             selectedState={selectedState}
             changeSelectedState={this.changeSelectedState}
           />
-
+</div>
           <UsersTable
             users={users}
             pageSize={pageSize}

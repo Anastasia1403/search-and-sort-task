@@ -1,7 +1,7 @@
 import React from "react";
 
 class SelectState extends React.Component {
-    
+
   //add all different states in array states for creating select options
   states = [];
   allStates = this.props.users.map((user) => {
@@ -17,7 +17,7 @@ class SelectState extends React.Component {
 
   render() {
     return (
-      <>
+      <div>
         <label className="select-state-label">
           {" "}
           Select state:
@@ -30,10 +30,10 @@ class SelectState extends React.Component {
             })}
           </select>
         </label>
-        <button onClick={this.onSelectState} value="">
+        <button className = 'reset-state' onClick={this.onSelectState} value="">
           Reset selected state
         </button>
-      </>
+      </div>
     );
   }
 }

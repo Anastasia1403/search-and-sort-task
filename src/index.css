@@ -47,16 +47,9 @@ th {
 
 }
 
-.searching-label {
- margin: 0 3px;
-}
-.searching-label input{
-margin: 0 0 0 5px;
-  padding: 3px;
-}
-
-.select-state-label {
-  margin: 0 3px 0 250px;
+.searching-label input {
+  margin: 0 0 0 5px;
+  padding: 3px 7px;
 }
 
 .select-state-label select {
@@ -85,4 +78,18 @@ width: 500px;
 .profile_info>h2 {
   text-align:center;
 
+}
+
+.button-block {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.filter-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reset-state {
+  margin: 0 0 0 5px;
 }
