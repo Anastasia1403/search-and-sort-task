@@ -1,0 +1,84 @@
+/*Обнуление*/
+body {
+  padding: 10px;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+/*--------------------*/
+
+.users-table {
+  border: 1px solid #000000;
+  margin: 30px auto 0;
+  width: 800px;
+}
+
+.users-table__row {
+  cursor: pointer;
+}
+
+.users-table__row td {
+  border: 1px solid #000000;
+  padding: 2px 0;
+  text-align: center;
+}
+
+th {
+  padding: 2px 15px;
+}
+
+.searching-label {
+ margin: 0 3px;
+}
+.searching-label input{
+margin: 0 0 0 5px;
+  padding: 3px;
+}
+
+.select-state-label {
+  margin: 0 3px 0 250px;
+}
+
+.select-state-label select {
+  margin: 0 0 0 5px;
+  padding: 3px 7px;
+}
+
+.current {
+  background-color: rgb(56, 143, 177);
+}
+
+.profile_info {
+  margin: 10px auto;
+  padding: 20px;
+border: 1px solid #000000;
+background: #adbec0;
+width: 500px;
+}
+
+.profile_info>div {
+  text-align:center;
+  padding: 4px 0;
+}
+
+
+.profile_info>h2 {
+  text-align:center;
+
+}
